@@ -12,8 +12,14 @@ import Footer from '../partials/Footer';
 
 function Home() {
   return (
-    <meta name="google-site-verification" content="G5jENgSC9ZXBCTvJ4ZtjC5083aqS1Pm8Bgpd4MFU7AE" />
     <div className="flex flex-col min-h-screen overflow-hidden">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FR4W09Q27Q"></script>
+    <script>
+      {`window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-FR4W09Q27Q');`}
+    </script>
       {/*  Site header */}
       <Header />
 
@@ -23,6 +29,8 @@ function Home() {
         <div className="relative max-w-6xl mx-auto h-0 pointer-events-none" aria-hidden="true">
           <PageIllustration />
         </div>
+        
+
 
         {/*  Page sections */}
         <HeroHome />
