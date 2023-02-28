@@ -13,13 +13,6 @@ import Footer from '../partials/Footer';
 function Home() {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FR4W09Q27Q"></script>
-    <script>
-      {`window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-FR4W09Q27Q');`}
-    </script>
       {/*  Site header */}
       <Header />
 
