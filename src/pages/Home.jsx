@@ -12,6 +12,7 @@ import Footer from '../partials/Footer';
 
 function Home() {
   return (
+    <meta name="google-site-verification" content="G5jENgSC9ZXBCTvJ4ZtjC5083aqS1Pm8Bgpd4MFU7AE" />
     <div className="flex flex-col min-h-screen overflow-hidden">
       {/*  Site header */}
       <Header />
@@ -32,7 +33,7 @@ function Home() {
       </main>
 
       <Banner />
-
+      
       {/*  Site footer */}
       <Footer />
     </div>
